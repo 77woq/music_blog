@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "en">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+        <head>
+        <meta charset = "utf-8">
+        <title>REC
+        </title>
+        <style>
+            div{text-align: center;}
+        </style>
+    </head>
+        <body> 
+                <div class="alert alert-danger" role="alert">
+                        <a href = "#" class= "alert-link">REC!</a>기분에 맞는 노래 추천시스템
+                </div>
+                <ul class="nav">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#">Mypage</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">favorite</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">rec!</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">playlist♬</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{% url 'new' %}">write</a>
+                        </li>
+                      </ul>
+                     
+                      <div class="card-deck">
+                            <div class="card">  
+                                <a href="https://www.youtube.com/watch?v=hWOB5QYcmh0" height="5" width="10" target="_blank">
+                                <img src="static\11.jpg" class="card-img-top" alt="..." width="200" height="400">
+                              <div class="card-body">
+                                <h5 class="card-title">#혼자#외로운#슬픈</h5>
+                                <p class="card-text">혼자서도 잘 놀아요</p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                              </div>
+                            </div>
+                            <div class="card">
+                                <a href="https://www.youtube.com/watch?v=vnS_jn2uibs" height="5" width="10" target="_blank">
+                                <img src="static\1.jpg" class="card-img-top" alt="..." width="200" height="400">
+                              <div class="card-body">
+                                <h5 class="card-title">#여행#신나는#행벅</h5>
+                                <p class="card-text">꽉 막힌 고속도로에서</p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img src="static\0.png" class="card-img-top" alt="..." width="200" height="400">
+                              <div class="card-body">
+                                <h5 class="card-title">#팝송#갬성#힙스터</h5>
+                                <p class="card-text">가사해석까지 한 눈에!</p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                              </div>
+                            </div>
+                          </div>
+        </body>    
+</html>
